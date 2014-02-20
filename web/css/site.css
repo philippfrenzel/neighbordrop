@@ -89,3 +89,12 @@ a.desc:after {
 	padding: 10px 20px;
 	margin: 0 0 15px 0;
 }
+
+.site-index{
+	padding-top: 200px;
+}
+
+#intro1{
+  background: url("../img/entry_background.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  min-height: 800px;
+}

@@ -29,7 +29,7 @@ AppAsset::register($this);
 				'brandLabel' => 'NeighborDrop',
 				'brandUrl' => Yii::$app->homeUrl,
 				'options' => [
-					'class' => 'navbar-inverse navbar-fixed-top',
+					'class' => 'navbar-inverse',
 				],
 			]);
 			echo Nav::widget([
@@ -48,7 +48,7 @@ AppAsset::register($this);
 			NavBar::end();
 		?>
 
-		<div class="container">
+		<div class="container-fluid" id="intro1">
 			<?= Breadcrumbs::widget([
 				'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
 			]) ?>
