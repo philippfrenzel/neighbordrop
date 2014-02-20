@@ -5,6 +5,8 @@ use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
 
+use philippfrenzel\yii2fullpagejs\yii2fullpagejs;
+
 /**
  * @var \yii\web\View $this
  * @var string $content
@@ -23,7 +25,7 @@ AppAsset::register($this);
 <body>
 
 <?php $this->beginBody() ?>
-	<div class="wrap">
+	
 		<?php
 			NavBar::begin([
 				'brandLabel' => 'NeighborDrop',
@@ -48,17 +50,23 @@ AppAsset::register($this);
 			NavBar::end();
 		?>
 
-		<div class="container">
-			<?= Breadcrumbs::widget([
-				'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-			]) ?>
-			<?= $content ?>
-		</div>
+	<?= yii2fullpagejs::widget(); ?>
+
+	<div class="section">
+		<?= $content ?>	
+	</div>
+	<div class="section">
+		<h1>Hello World!</h1>
+	</div>
+	<div class="section">
+		<?= Breadcrumbs::widget([
+			'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
+		]) ?>
 	</div>
 
 	<footer class="footer">
 		<div class="container">
-			<p class="pull-left">&copy; NeighborDrop.com <?= date('Y') ?></p>
+			<p class="pull-left">&copy; NeigborDrop <?= date('Y') ?></p>
 			<p class="pull-right"><?= Yii::powered() ?></p>
 		</div>
 	</footer>

@@ -6,7 +6,7 @@ $params = require(__DIR__ . '/params.php');
 $db = require(__DIR__ . '/db.php');
 
 return [
-	'id' => 'basic-console',
+	'id' => 'neighbordrop-console',
 	'basePath' => dirname(__DIR__),
 	'preload' => ['log'],
 	'controllerPath' => dirname(__DIR__) . '/commands',
