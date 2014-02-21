@@ -210,12 +210,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "25d047ded4a828f114710f3f1f3af7a4839f96c9"
+                "reference": "0c98895604902495bbc6107c62d9d8574b755193"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/25d047ded4a828f114710f3f1f3af7a4839f96c9",
-                "reference": "25d047ded4a828f114710f3f1f3af7a4839f96c9",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/0c98895604902495bbc6107c62d9d8574b755193",
+                "reference": "0c98895604902495bbc6107c62d9d8574b755193",
                 "shasum": ""
             },
             "type": "library",
@@ -244,7 +244,7 @@
                 "bootstrap",
                 "css"
             ],
-            "time": "2014-02-18 11:21:05"
+            "time": "2014-02-19 20:41:46"
         },
         {
             "name": "yiisoft/jquery",
@@ -275,12 +275,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "4f42e4eb540fd1d22274abdfc51441e5879faeed"
+                "reference": "f27e47a92fc56bdfbffbecdfce9811846d18912d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/4f42e4eb540fd1d22274abdfc51441e5879faeed",
-                "reference": "4f42e4eb540fd1d22274abdfc51441e5879faeed",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/f27e47a92fc56bdfbffbecdfce9811846d18912d",
+                "reference": "f27e47a92fc56bdfbffbecdfce9811846d18912d",
                 "shasum": ""
             },
             "require": {
@@ -344,7 +344,7 @@
                 "framework",
                 "yii"
             ],
-            "time": "2014-02-20 02:47:25"
+            "time": "2014-02-20 20:30:47"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -352,12 +352,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "6cd480ee4ab98831e931145b37fc0d6aea15b0c8"
+                "reference": "36c2c5acfeac9b59b7984209b8d2659c46c5f52e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/6cd480ee4ab98831e931145b37fc0d6aea15b0c8",
-                "reference": "6cd480ee4ab98831e931145b37fc0d6aea15b0c8",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/36c2c5acfeac9b59b7984209b8d2659c46c5f52e",
+                "reference": "36c2c5acfeac9b59b7984209b8d2659c46c5f52e",
                 "shasum": ""
             },
             "require": {
@@ -387,7 +387,7 @@
                 "bootstrap",
                 "yii"
             ],
-            "time": "2014-02-17 18:52:32"
+            "time": "2014-02-20 20:37:44"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -889,12 +889,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "4c74b127eb5f1475157bb54c2b7cb3d529fe18f7"
+                "reference": "08f09c20805695212ebe713b6706b8efb24f96e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/4c74b127eb5f1475157bb54c2b7cb3d529fe18f7",
-                "reference": "4c74b127eb5f1475157bb54c2b7cb3d529fe18f7",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/08f09c20805695212ebe713b6706b8efb24f96e7",
+                "reference": "08f09c20805695212ebe713b6706b8efb24f96e7",
                 "shasum": ""
             },
             "require": {
@@ -948,7 +948,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2014-02-18 14:12:15"
+            "time": "2014-02-20 10:38:44"
         },
         {
             "name": "phpspec/php-diff",
@@ -1872,12 +1872,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "125f508c1831e1d55e02b0625610ac4485493303"
+                "reference": "b94709267256ad0be5e4a1d729882b26936a8f05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/125f508c1831e1d55e02b0625610ac4485493303",
-                "reference": "125f508c1831e1d55e02b0625610ac4485493303",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/b94709267256ad0be5e4a1d729882b26936a8f05",
+                "reference": "b94709267256ad0be5e4a1d729882b26936a8f05",
                 "shasum": ""
             },
             "require": {
@@ -1908,7 +1908,7 @@
                 "debugger",
                 "yii"
             ],
-            "time": "2014-02-19 17:30:19"
+            "time": "2014-02-20 12:42:30"
         },
         {
             "name": "yiisoft/yii2-gii",
@@ -1916,12 +1916,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "5a5523fadd9c080384cc91881dbf3cc4465f2acc"
+                "reference": "cb9c5419bc9a5bbb14f11d261632f579162bff75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/5a5523fadd9c080384cc91881dbf3cc4465f2acc",
-                "reference": "5a5523fadd9c080384cc91881dbf3cc4465f2acc",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/cb9c5419bc9a5bbb14f11d261632f579162bff75",
+                "reference": "cb9c5419bc9a5bbb14f11d261632f579162bff75",
                 "shasum": ""
             },
             "require": {
@@ -1953,7 +1953,7 @@
                 "gii",
                 "yii"
             ],
-            "time": "2014-02-17 02:29:48"
+            "time": "2014-02-20 18:14:46"
         }
     ],
     "aliases": [

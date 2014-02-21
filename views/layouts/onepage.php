@@ -26,18 +26,19 @@ AppAsset::register($this);
 
 <?php $this->beginBody() ?>
 	
-		<?php
+	<?php
 			NavBar::begin([
-				'brandLabel' => 'NeighborDrop',
+				'id' => 'myMainMenu',
+				'brandLabel' => '',
 				'brandUrl' => Yii::$app->homeUrl,
 				'options' => [
-					'class' => 'navbar-inverse navbar-fixed-top',
+					'class' => 'navbar-default navbar-fixed-top',
 				],
 			]);
 			echo Nav::widget([
 				'options' => ['class' => 'navbar-nav navbar-right'],
 				'items' => [
-					['label' => 'Home', 'url' => ['/site/index']],
+					['label' => 'Home', 'url' => ['/site/index'],'data-menuanchor'=>'intro1'],
 					['label' => 'About', 'url' => ['/site/about']],
 					['label' => 'Contact', 'url' => ['/site/contact']],
 					Yii::$app->user->isGuest ?
@@ -48,28 +49,31 @@ AppAsset::register($this);
 				],
 			]);
 			NavBar::end();
-		?>
+	?>
 
-	<?= yii2fullpagejs::widget(); ?>
+	<?= yii2fullpagejs::widget([
+		'clientOptions'=>[
+			'menu'=>'#myMainMenu'
+		]
+	]); ?>
 
-	<div class="section">
+	<div class="section" id="intro1" data-anchor="intro1">
 		<?= $content ?>	
 	</div>
-	<div class="section">
+	<div class="section" id="intro2">
 		<h1>Hello World!</h1>
 	</div>
 	<div class="section">
 		<?= Breadcrumbs::widget([
 			'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
 		]) ?>
-	</div>
-
-	<footer class="footer">
-		<div class="container">
-			<p class="pull-left">&copy; NeigborDrop <?= date('Y') ?></p>
-			<p class="pull-right"><?= Yii::powered() ?></p>
-		</div>
-	</footer>
+		<footer class="footer">
+			<div class="container">
+				<p class="pull-left">&copy; NeigborDrop <?= date('Y') ?></p>
+				<p class="pull-right"><?= Yii::powered() ?></p>
+			</div>
+		</footer>
+	</div>	
 
 <?php $this->endBody() ?>
 </body>

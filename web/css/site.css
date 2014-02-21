@@ -1,6 +1,22 @@
+@font-face{
+  font-family: junction;
+  src: url(../fonts/junction-master/webfonts/junction-webfont.woff);
+}
+
+@font-face{
+  font-family: lgothic;
+  src: url(../fonts/league-gothic-master/webfonts/leaguegothic-regular-webfont.woff);
+}
+
+@font-face{
+  font-family: blackout;
+  src: url(../fonts/blackout-master/webfonts/blackout_midnight-webfont.woff);
+}
+
 html,
 body {
 	height: 100%;
+	font-family: junction, sans-serif;
 }
 
 .wrap {
@@ -91,10 +107,49 @@ a.desc:after {
 }
 
 .site-index{
-	padding-top: 200px;
+	padding-top: 50px;
 }
 
 #intro1{
   background: url("../img/entry_background.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
   min-height: 800px;
+}
+
+#intro2{
+	background: #244CD2;
+}
+
+.navbar {
+	background-color: #ffffff;
+  border: 0px solid transparent;
+  font-family: lgothic, sans-serif;
+  letter-spacing: 0.1em;
+  font-size: 26px;
+  margin-bottom: 0px;
+}
+
+.navbar-nav {
+	border-bottom: 1px solid #E7E7E7;
+}
+
+.navbar a{
+  color: #74B73F;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: #74B73F;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #EA892B;
+	background-color: #253A7D;
+}
+
+.navbar-default{
+  /*background-color: transparent;*/
+}
+
+.navbar-default .navbar-brand{
+  padding-left: 10px;
+  color: #89C027;
 }
