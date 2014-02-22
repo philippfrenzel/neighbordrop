@@ -116,7 +116,8 @@ a.desc:after {
 }
 
 #intro2{
-	background: #244CD2;
+	background: url("../img/entry_background_two.jpg") repeat scroll 0 0 rgba(0, 0, 0, 0);
+  min-height: 800px;
 }
 
 .navbar {
@@ -142,7 +143,7 @@ a.desc:after {
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: #EA892B;
-	background-color: #253A7D;
+	background-color: #898989;
 }
 
 .navbar-default{

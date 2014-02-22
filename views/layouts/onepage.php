@@ -57,9 +57,9 @@ AppAsset::register($this);
 		]
 	]); ?>
 
-	<div class="section" id="intro1" data-anchor="intro1">
-		<?= $content ?>	
-	</div>
+	
+	<?= $content ?>	
+	
 	<div class="section" id="intro2">
 		<h1>Hello World!</h1>
 	</div>
