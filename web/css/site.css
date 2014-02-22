@@ -134,11 +134,11 @@ a.desc:after {
 }
 
 .navbar a{
-  color: #74B73F;
+  color: #0a6565;
 }
 
 .navbar-default .navbar-nav>li>a{
-  color: #74B73F;
+  color: #0a6565;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
