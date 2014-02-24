@@ -127,10 +127,12 @@ a.desc:after {
   letter-spacing: 0.1em;
   font-size: 26px;
   margin-bottom: 0px;
+  height: 95px;
 }
 
 .navbar-nav {
 	border-bottom: 1px solid #E7E7E7;
+	margin-top: 35px;
 }
 
 .navbar a{
@@ -143,7 +145,7 @@ a.desc:after {
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: #EA892B;
-	background-color: #898989;
+	background-color: #ffffff;
 }
 
 .navbar-default{

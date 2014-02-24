@@ -35,6 +35,14 @@ AppAsset::register($this);
 					'class' => 'navbar-default navbar-fixed-top',
 				],
 			]);
+
+	?>
+
+	<div class="navbar-brand">
+		<img src="img/logo_small_75.png" alt="NeighborDrop - Social Platform">
+	</div>
+
+	<?php
 			echo Nav::widget([
 				'options' => ['class' => 'navbar-nav navbar-right'],
 				'items' => [
@@ -53,7 +61,7 @@ AppAsset::register($this);
 
 	<?= yii2fullpagejs::widget([
 		'clientOptions'=>[
-			'menu'=>'#myMainMenu'
+			//'menu'=>'#myMainMenu'
 		]
 	]); ?>
 

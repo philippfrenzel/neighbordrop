@@ -7,16 +7,16 @@
     "packages": [
         {
             "name": "cebe/markdown",
-            "version": "0.9.1",
+            "version": "0.9.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cebe/markdown.git",
-                "reference": "1d18ebcd4b381e68a3007772ccff404fc424a883"
+                "reference": "cf19ee2f412dd0c76ec10f37f011685308e56a85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cebe/markdown/zipball/1d18ebcd4b381e68a3007772ccff404fc424a883",
-                "reference": "1d18ebcd4b381e68a3007772ccff404fc424a883",
+                "url": "https://api.github.com/repos/cebe/markdown/zipball/cf19ee2f412dd0c76ec10f37f011685308e56a85",
+                "reference": "cf19ee2f412dd0c76ec10f37f011685308e56a85",
                 "shasum": ""
             },
             "require": {
@@ -30,6 +30,12 @@
                 "bin/markdown"
             ],
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev",
+                    "dev-0.9.x-dev": "0.9.x-dev"
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "cebe\\markdown\\": ""
@@ -48,7 +54,7 @@
                 }
             ],
             "description": "A super fast highly extensible markdown parser for PHP",
-            "homepage": "http://www.cebe.cc/markdown",
+            "homepage": "https://github.com/cebe/markdown#readme",
             "keywords": [
                 "extensible",
                 "fast",
@@ -56,7 +62,7 @@
                 "markdown",
                 "markdown-extra"
             ],
-            "time": "2014-02-18 04:14:19"
+            "time": "2014-02-22 14:23:30"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -210,12 +216,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "0c98895604902495bbc6107c62d9d8574b755193"
+                "reference": "af83e569c35e7f3732b34d599126ffe2aa207d82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/0c98895604902495bbc6107c62d9d8574b755193",
-                "reference": "0c98895604902495bbc6107c62d9d8574b755193",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/af83e569c35e7f3732b34d599126ffe2aa207d82",
+                "reference": "af83e569c35e7f3732b34d599126ffe2aa207d82",
                 "shasum": ""
             },
             "type": "library",
@@ -244,7 +250,7 @@
                 "bootstrap",
                 "css"
             ],
-            "time": "2014-02-19 20:41:46"
+            "time": "2014-02-23 08:56:27"
         },
         {
             "name": "yiisoft/jquery",
@@ -275,21 +281,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-<<<<<<< HEAD
-                "reference": "0a420d2a931af797b7013356b63f2169a79e2cb5"
+                "reference": "273424585b7f344f4e0588d73a3751dbdd051338"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/0a420d2a931af797b7013356b63f2169a79e2cb5",
-                "reference": "0a420d2a931af797b7013356b63f2169a79e2cb5",
-=======
-                "reference": "f27e47a92fc56bdfbffbecdfce9811846d18912d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/f27e47a92fc56bdfbffbecdfce9811846d18912d",
-                "reference": "f27e47a92fc56bdfbffbecdfce9811846d18912d",
->>>>>>> 2c666ef881d2dff997e7092e28153652b80141f8
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/273424585b7f344f4e0588d73a3751dbdd051338",
+                "reference": "273424585b7f344f4e0588d73a3751dbdd051338",
                 "shasum": ""
             },
             "require": {
@@ -353,11 +350,7 @@
                 "framework",
                 "yii"
             ],
-<<<<<<< HEAD
-            "time": "2014-02-21 16:45:33"
-=======
-            "time": "2014-02-20 20:30:47"
->>>>>>> 2c666ef881d2dff997e7092e28153652b80141f8
+            "time": "2014-02-23 18:43:57"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -454,12 +447,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-jui.git",
-                "reference": "12a01c7590f0cbde8c7ce07963869cc6a2e0135d"
+                "reference": "08fa6acf19fdce4a5a6d3c676383a1b122e242af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-jui/zipball/12a01c7590f0cbde8c7ce07963869cc6a2e0135d",
-                "reference": "12a01c7590f0cbde8c7ce07963869cc6a2e0135d",
+                "url": "https://api.github.com/repos/yiisoft/yii2-jui/zipball/08fa6acf19fdce4a5a6d3c676383a1b122e242af",
+                "reference": "08fa6acf19fdce4a5a6d3c676383a1b122e242af",
                 "shasum": ""
             },
             "require": {
@@ -489,7 +482,7 @@
                 "renderer",
                 "yii"
             ],
-            "time": "2014-01-11 02:06:25"
+            "time": "2014-02-22 13:04:46"
         },
         {
             "name": "yiisoft/yii2-swiftmailer",
@@ -545,12 +538,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Codeception/Codeception.git",
-                "reference": "83ab8207c78f802a1bc46f401f1db27d8b2e9961"
+                "reference": "9531b383a68e9f2aa21a211477e6f61eb13aeccc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/83ab8207c78f802a1bc46f401f1db27d8b2e9961",
-                "reference": "83ab8207c78f802a1bc46f401f1db27d8b2e9961",
+                "url": "https://api.github.com/repos/Codeception/Codeception/zipball/9531b383a68e9f2aa21a211477e6f61eb13aeccc",
+                "reference": "9531b383a68e9f2aa21a211477e6f61eb13aeccc",
                 "shasum": ""
             },
             "require": {
@@ -600,7 +593,7 @@
                 "functional testing",
                 "unit testing"
             ],
-            "time": "2014-02-18 03:27:40"
+            "time": "2014-02-22 22:46:46"
         },
         {
             "name": "fabpot/goutte",
@@ -662,20 +655,22 @@
         },
         {
             "name": "facebook/webdriver",
-            "version": "v0.3",
+            "version": "v0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/facebook/php-webdriver.git",
-                "reference": "1b0facc33133f0ff990df8cebe7f2e19b2603da3"
+                "reference": "342df507312ea5ae5337be47e16e4268d7ed661f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/php-webdriver/zipball/1b0facc33133f0ff990df8cebe7f2e19b2603da3",
-                "reference": "1b0facc33133f0ff990df8cebe7f2e19b2603da3",
+                "url": "https://api.github.com/repos/facebook/php-webdriver/zipball/342df507312ea5ae5337be47e16e4268d7ed661f",
+                "reference": "342df507312ea5ae5337be47e16e4268d7ed661f",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.19",
+                "php": ">=5.3.19"
+            },
+            "require-dev": {
                 "phpunit/phpunit": "3.7.*"
             },
             "type": "library",
@@ -696,7 +691,7 @@
                 "selenium",
                 "webdriver"
             ],
-            "time": "2013-11-26 23:16:02"
+            "time": "2014-02-21 18:22:11"
         },
         {
             "name": "guzzle/common",
@@ -902,12 +897,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "08f09c20805695212ebe713b6706b8efb24f96e7"
+                "reference": "6b81ac8153be8ae33a877a79be3f61809f1448d9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/08f09c20805695212ebe713b6706b8efb24f96e7",
-                "reference": "08f09c20805695212ebe713b6706b8efb24f96e7",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/6b81ac8153be8ae33a877a79be3f61809f1448d9",
+                "reference": "6b81ac8153be8ae33a877a79be3f61809f1448d9",
                 "shasum": ""
             },
             "require": {
@@ -917,7 +912,7 @@
             "require-dev": {
                 "aws/aws-sdk-php": "~2.4.8",
                 "doctrine/couchdb": "dev-master",
-                "mlehner/gelf-php": "1.0.*",
+                "graylog2/gelf-php": "~1.0",
                 "phpunit/phpunit": "~3.7.0",
                 "raven/raven": "~0.5",
                 "ruflin/elastica": "0.90.*"
@@ -927,7 +922,7 @@
                 "doctrine/couchdb": "Allow sending log messages to a CouchDB server",
                 "ext-amqp": "Allow sending log messages to an AMQP server (1.0+ required)",
                 "ext-mongo": "Allow sending log messages to a MongoDB server",
-                "mlehner/gelf-php": "Allow sending log messages to a GrayLog2 server",
+                "graylog2/gelf-php": "Allow sending log messages to a GrayLog2 server",
                 "raven/raven": "Allow sending log messages to a Sentry server",
                 "ruflin/elastica": "Allow sending log messages to an Elastic Search server"
             },
@@ -961,7 +956,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2014-02-20 10:38:44"
+            "time": "2014-02-23 15:06:45"
         },
         {
             "name": "phpspec/php-diff",
@@ -1845,12 +1840,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-codeception.git",
-                "reference": "af4cadab1690be948986c606431c5967c3fa8e34"
+                "reference": "1d1d07650423591ffb4124ac231e9ef3c40d4a7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-codeception/zipball/af4cadab1690be948986c606431c5967c3fa8e34",
-                "reference": "af4cadab1690be948986c606431c5967c3fa8e34",
+                "url": "https://api.github.com/repos/yiisoft/yii2-codeception/zipball/1d1d07650423591ffb4124ac231e9ef3c40d4a7e",
+                "reference": "1d1d07650423591ffb4124ac231e9ef3c40d4a7e",
                 "shasum": ""
             },
             "require": {
@@ -1877,7 +1872,7 @@
                 "codeception",
                 "yii"
             ],
-            "time": "2014-02-15 23:18:27"
+            "time": "2014-02-20 16:10:33"
         },
         {
             "name": "yiisoft/yii2-debug",
@@ -1885,12 +1880,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "b94709267256ad0be5e4a1d729882b26936a8f05"
+                "reference": "a4d8ab38f0a1501e8054b590ab08e366e1abd0f6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/b94709267256ad0be5e4a1d729882b26936a8f05",
-                "reference": "b94709267256ad0be5e4a1d729882b26936a8f05",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/a4d8ab38f0a1501e8054b590ab08e366e1abd0f6",
+                "reference": "a4d8ab38f0a1501e8054b590ab08e366e1abd0f6",
                 "shasum": ""
             },
             "require": {
@@ -1921,7 +1916,7 @@
                 "debugger",
                 "yii"
             ],
-            "time": "2014-02-20 12:42:30"
+            "time": "2014-02-20 16:10:33"
         },
         {
             "name": "yiisoft/yii2-gii",
@@ -1929,12 +1924,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "cb9c5419bc9a5bbb14f11d261632f579162bff75"
+                "reference": "f980513b93f8dd1af9ae000b5643aa1a75a54676"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/cb9c5419bc9a5bbb14f11d261632f579162bff75",
-                "reference": "cb9c5419bc9a5bbb14f11d261632f579162bff75",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/f980513b93f8dd1af9ae000b5643aa1a75a54676",
+                "reference": "f980513b93f8dd1af9ae000b5643aa1a75a54676",
                 "shasum": ""
             },
             "require": {
@@ -1966,7 +1961,7 @@
                 "gii",
                 "yii"
             ],
-            "time": "2014-02-20 18:14:46"
+            "time": "2014-02-22 20:01:18"
         }
     ],
     "aliases": [
