@@ -107,9 +107,9 @@ a.desc:after {
 }
 
 .map-logo {
+  border-radius: 15px;
+  background-color: #624BE8;
   position: absolute;
-  width: 310px;
-  height: 200px;
   top: 130px;
   right: 50px;
   z-index: 1;
