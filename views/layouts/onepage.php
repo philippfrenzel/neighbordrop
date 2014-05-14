@@ -15,9 +15,14 @@ AppAsset::register($this);
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
 <head>
-	<meta charset="<?= Yii::$app->charset ?>"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="<?= Yii::$app->charset ?>"/>	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<?php 
+		$this->registerMetaTag(['name' => 'description','lang'=>'en', 'content' => Html::encode($this->context->metadescription)], 'meta-description');
+		$this->registerMetaTag(['name' => 'keywords','lang'=>'en','content' => Html::encode($this->context->metakeywords)], 'meta-keywords');
+	?>
 	<title><?= Html::encode($this->title) ?></title>
+	<link rel="icon" href="img/favicon.png" type="image/png">
 	<?php $this->head() ?>
 </head>
 <body>
@@ -48,9 +53,9 @@ AppAsset::register($this);
 				['label' => 'About', 'url' => ['/site/about']],
 				['label' => 'Contact', 'url' => ['/site/contact']],
 				Yii::$app->user->isGuest ?
-					['label' => 'Login', 'url' => ['/site/login']] :
+					['label' => 'Login', 'url' => ['/user/security/login']] :
 					['label' => 'Logout (' . Yii::$app->user->identity->username . ')' ,
-						'url' => ['/site/logout'],
+						'url' => ['/user/security/logout'],
 						'linkOptions' => ['data-method' => 'post']],
 			],
 		]);
@@ -59,12 +64,12 @@ AppAsset::register($this);
 
 	<?= $content ?>	
 	
-<footer class="footer">
+<div id="footer">
 	<div class="container">
 		<p class="pull-left">&copy; NeigborDrop <?= date('Y') ?></p>
 		<p class="pull-right"><?= Yii::powered() ?></p>
 	</div>
-</footer>	
+</div>	
 
 <?php $this->endBody() ?>
 </body>

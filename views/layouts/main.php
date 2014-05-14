@@ -15,53 +15,60 @@ AppAsset::register($this);
 <!DOCTYPE html>
 <html lang="<?= Yii::$app->language ?>">
 <head>
-	<meta charset="<?= Yii::$app->charset ?>"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="<?= Yii::$app->charset ?>"/>	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<title><?= Html::encode($this->title) ?></title>
+	<link rel="icon" href="img/favicon.png" type="image/png">
 	<?php $this->head() ?>
 </head>
 <body>
 
 <?php $this->beginBody() ?>
-	<div class="wrap">
-		<?php
+	
+	<?php
 			NavBar::begin([
-				'brandLabel' => 'NeighborDrop',
+				'id' => 'myMainMenu',
+				'brandLabel' => '',
 				'brandUrl' => Yii::$app->homeUrl,
 				'options' => [
-					'class' => 'navbar-inverse',
+					'class' => 'navbar-default navbar-fixed-top',
 				],
 			]);
-			echo Nav::widget([
-				'options' => ['class' => 'navbar-nav navbar-right'],
-				'items' => [
-					['label' => 'Home', 'url' => ['/site/index']],
-					['label' => 'About', 'url' => ['/site/about']],
-					['label' => 'Contact', 'url' => ['/site/contact']],
-					Yii::$app->user->isGuest ?
-						['label' => 'Login', 'url' => ['/site/login']] :
-						['label' => 'Logout (' . Yii::$app->user->identity->username . ')' ,
-							'url' => ['/site/logout'],
-							'linkOptions' => ['data-method' => 'post']],
-				],
-			]);
-			NavBar::end();
-		?>
 
-		<div class="container-fluid" id="intro1">
-			<?= Breadcrumbs::widget([
-				'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
-			]) ?>
-			<?= $content ?>
-		</div>
+	?>
+
+	<div class="navbar-brand">
+		<img src="img/logo_small_75.png" alt="NeighborDrop - Social Platform">
 	</div>
 
-	<footer class="footer">
-		<div class="container">
-			<p class="pull-left">&copy; NeighborDrop.com <?= date('Y') ?></p>
-			<p class="pull-right"><?= Yii::powered() ?></p>
-		</div>
-	</footer>
+<?php
+		echo Nav::widget([
+			'options' => ['class' => 'navbar-nav navbar-right'],
+			'items' => [
+				['label' => 'Home', 'url' => ['/site/index'],'data-menuanchor'=>'intro1'],
+				['label' => 'About', 'url' => ['/site/about']],
+				['label' => 'Contact', 'url' => ['/site/contact']],
+				Yii::$app->user->isGuest ?
+					['label' => 'Register', 'url' => ['/user/registration/register']]:
+					NULL,
+				Yii::$app->user->isGuest ?
+					['label' => 'Login', 'url' => ['/user/security/login']] :
+					['label' => 'Logout (' . Yii::$app->user->identity->username . ')' ,
+						'url' => ['/user/security/logout'],
+						'linkOptions' => ['data-method' => 'post']],
+			],
+		]);
+		NavBar::end();
+?>
+
+	<?= $content ?>	
+	
+<div id="footer">
+	<div class="container">
+		<p class="pull-left">&copy; NeigborDrop <?= date('Y') ?></p>
+		<p class="pull-right"><?= Yii::powered() ?></p>
+	</div>
+</div>	
 
 <?php $this->endBody() ?>
 </body>
