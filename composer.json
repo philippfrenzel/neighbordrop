@@ -20,7 +20,8 @@
     "jamesheinrich/phpthumb": "dev-master",
     "2amigos/yii2-file-input-widget" : "*",
     "philippfrenzel/yii2fullpagejs": "dev-master",
-    "philippfrenzel/yii2sly": "dev-master"
+    "philippfrenzel/yii2sly": "dev-master",
+    "2amigos/yii2-chartjs-widget" : "*"
   },
 	"require-dev": {
 		"yiisoft/yii2-codeception": "*",

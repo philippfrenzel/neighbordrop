@@ -34,8 +34,6 @@ body{
   background-color: #564567;
   border-top: 1px solid #ddd;
   padding-top: 20px;
-  position:absolute;
-  bottom:0;
   width:100%;
 }
 
@@ -106,4 +104,13 @@ a.desc:after {
   border-left: 3px solid #eed3d7;
   padding: 10px 20px;
   margin: 0 0 15px 0;
+}
+
+.map-logo {
+  position: absolute;
+  width: 310px;
+  height: 200px;
+  top: 110px;
+  right: 50px;
+  z-index: 1;
 }
