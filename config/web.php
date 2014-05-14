@@ -41,7 +41,12 @@ $config = [
             'clients' => [
                 'google' => [
                     'class' => 'yii\authclient\clients\GoogleOpenId'
-                ]
+                ],
+                'facebook' => [
+	                'class' => 'yii\authclient\clients\Facebook',
+	                'clientId' => '1481407108757552',
+	                'clientSecret' => '6360dd98137855b885fc4350bfaec0fd',
+	            ],
             ],
         ],
         'errorHandler' => [
