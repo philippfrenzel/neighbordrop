@@ -5,8 +5,6 @@
 $this->title = 'NeighborDrop - Help your neighbor with droping picking or droping stuff';
 ?>
 
-<div class="section" id="intro1" data-anchor="intro1">
-
 <div class="container">
   <div class="row">
     <div class="col-md-6">
@@ -22,6 +20,4 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
       </div>
     </div>
   </div>
-</div>
-
 </div>
