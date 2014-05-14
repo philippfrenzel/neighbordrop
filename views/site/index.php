@@ -67,7 +67,7 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
       <?= Icon::show('thumb-tack', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
     </div>
     <div class="col-md-4">
-      <p class="fg_white">
+      <p class="fg_dark">
         NeighborDrop is a plattform that allows users to register several "drops". A drop
         can be your <b>HOME</b>, <b>WORKPLACE</b> or another place where you regulary live.
         After you registered at the platform you add your drops to your profile and then
@@ -79,19 +79,20 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
       <?= Icon::show('h-square', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
     </div>
     <div class="col-md-4">
-      <p class="fg_white">
+      <p class="fg_dark">
         <b>SUPPORTREQUEST</b>s are categorized by the type of support you request, e.g. need something
         from the groceries. Or maybe you need someone to help you with the laundry or you are sick and
         can't walk to the pharmacy.
       </p>
     </div>
   </div>
+  <hr>
   <div class="row">
     <div class="col-md-2">
       <?= Icon::show('money', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
     </div>
     <div class="col-md-4">
-      <p class="fg_white">
+      <p class="fg_dark">
         As money matters in real life and even as we are a social plattform, we need a backup
         for the services <b>NEIGHBOR</b>s deliver, which means, as you are gonna buy a liter of
         milk for another user, you'll have to spend e.g. 50 Cents. So as you spend the money,

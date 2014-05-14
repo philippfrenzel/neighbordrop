@@ -15,6 +15,10 @@ h1,h2,h3,h4 {
   font-family: Playball, Arial, sans-serif;
 }
 
+p{
+  font-size: 113%;
+}
+
 #nbdrop-logo {
   background: url("../img/logo_small_75.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
   height: 80px;
