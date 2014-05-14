@@ -64,7 +64,7 @@ Icon::map($this);
 	
 <div id="footer">
 	<div class="container">
-		<p class="pull-left">&copy; NeigborDrop <?= date('Y') ?></p>
+		<p class="pull-left fg_white">&copy; NeigborDrop <?= date('Y') ?></p>
 		<p class="pull-right"><?= Yii::powered() ?></p>
 	</div>
 </div>	

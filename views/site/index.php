@@ -18,7 +18,7 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
         'width'  => 300,
      ],
     'data' => [
-        'labels' => ["January", "February", "March", "April", "May", "June", "July"],
+        'labels' => ["J", "F", "M", "A", "M", "J", "J"],
         'datasets' => [
             [
                 'fillColor' => "rgba(220,220,220,0.5)",
@@ -59,15 +59,15 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
 <div class="container">
   <div class="row">
     <div class="col-md-12">
-      <h1>How it works...</h1>      
+      <h1 class="fg_white">How it works...</h1>      
     </div>
   </div>
   <div class="row">
     <div class="col-md-2">
-      <?= Icon::show('thumb-tack', ['class' => 'fa-4x pull-right'], Icon::FA); ?>
+      <?= Icon::show('thumb-tack', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
     </div>
     <div class="col-md-4">
-      <p>
+      <p class="fg_white">
         NeighborDrop is a plattform that allows users to register several "drops". A drop
         can be your <b>HOME</b>, <b>WORKPLACE</b> or another place where you regulary live.
         After you registered at the platform you add your drops to your profile and then
@@ -76,10 +76,10 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
       </p>
     </div>
     <div class="col-md-2">
-      <?= Icon::show('h-square', ['class' => 'fa-4x pull-right'], Icon::FA); ?>
+      <?= Icon::show('h-square', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
     </div>
     <div class="col-md-4">
-      <p>
+      <p class="fg_white">
         <b>SUPPORTREQUEST</b>s are categorized by the type of support you request, e.g. need something
         from the groceries. Or maybe you need someone to help you with the laundry or you are sick and
         can't walk to the pharmacy.
@@ -88,10 +88,10 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
   </div>
   <div class="row">
     <div class="col-md-2">
-      <?= Icon::show('money', ['class' => 'fa-4x pull-right'], Icon::FA); ?>
+      <?= Icon::show('money', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
     </div>
     <div class="col-md-4">
-      <p>
+      <p class="fg_white">
         As money matters in real life and even as we are a social plattform, we need a backup
         for the services <b>NEIGHBOR</b>s deliver, which means, as you are gonna buy a liter of
         milk for another user, you'll have to spend e.g. 50 Cents. So as you spend the money,
@@ -101,11 +101,11 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
       </p>
     </div>
     <div class="col-md-2">
-      <?= Icon::show('user', ['class' => 'fa-4x pull-right'], Icon::FA); ?>
+      <?= Icon::show('user', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
     </div>
     <div class="col-md-4">
       <p>
-         <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">LOIGN</a></p>
+         <p><a class="btn btn-lg btn-default" href="http://www.yiiframework.com">Join</a></p>
       </p>
     </div>
   </div>
