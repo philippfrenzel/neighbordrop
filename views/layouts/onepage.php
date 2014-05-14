@@ -4,12 +4,16 @@ use yii\bootstrap\Nav;
 use yii\bootstrap\NavBar;
 use yii\widgets\Breadcrumbs;
 use app\assets\AppAsset;
+use kartik\icons\Icon;
 
 /**
  * @var \yii\web\View $this
  * @var string $content
  */
 AppAsset::register($this);
+
+//init icons
+Icon::map($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -28,24 +32,18 @@ AppAsset::register($this);
 <body>
 
 <?php $this->beginBody() ?>
+
+<div id="nbdrop-logo"></div>
 	
-	<?php
-			NavBar::begin([
-				'id' => 'myMainMenu',
-				'brandLabel' => '',
-				'brandUrl' => Yii::$app->homeUrl,
-				'options' => [
-					'class' => 'navbar-default navbar-fixed-top',
-				],
-			]);
-
-	?>
-
-	<div class="navbar-brand">
-		<img src="img/logo_small_75.png" alt="NeighborDrop - Social Platform">
-	</div>
-
 <?php
+		NavBar::begin([
+			'id' => 'myMainMenu',
+			'brandLabel' => '',
+			'brandUrl' => Yii::$app->homeUrl,
+			'options' => [
+				'class' => 'navbar-default navbar-fixed-top',
+			],
+		]);
 		echo Nav::widget([
 			'options' => ['class' => 'navbar-nav navbar-right'],
 			'items' => [

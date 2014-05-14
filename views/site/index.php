@@ -2,6 +2,7 @@
 
 use dosamigos\chartjs\Chart;
 use kartik\widgets\Affix;
+use kartik\icons\Icon;
 
 /**
  * @var yii\web\View $this
@@ -44,11 +45,79 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
     <?php 
       if(class_exists('\frenzelgmbh\cmaddress\widgets\IPLocation')){
         echo \frenzelgmbh\cmaddress\widgets\IPLocation::widget([
-          'title' => null
+          'title' => null,
+          'options' => [
+            'height' => 450
+          ]          
         ]); 
       }
     ?>
   </div>
+</div>
+
+<div id="slide1">
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>How it works...</h1>      
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2">
+      <?= Icon::show('thumb-tack', ['class' => 'fa-4x pull-right'], Icon::FA); ?>
+    </div>
+    <div class="col-md-4">
+      <p>
+        NeighborDrop is a plattform that allows users to register several "drops". A drop
+        can be your <b>HOME</b>, <b>WORKPLACE</b> or another place where you regulary live.
+        After you registered at the platform you add your drops to your profile and then
+        the social part begins - you need milk, but you can't get to the groceries in time...
+        Post your <b>SUPPORTREQUEST</b> to the community and see if an NEIGHBOR can help you!
+      </p>
+    </div>
+    <div class="col-md-2">
+      <?= Icon::show('h-square', ['class' => 'fa-4x pull-right'], Icon::FA); ?>
+    </div>
+    <div class="col-md-4">
+      <p>
+        <b>SUPPORTREQUEST</b>s are categorized by the type of support you request, e.g. need something
+        from the groceries. Or maybe you need someone to help you with the laundry or you are sick and
+        can't walk to the pharmacy.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-2">
+      <?= Icon::show('money', ['class' => 'fa-4x pull-right'], Icon::FA); ?>
+    </div>
+    <div class="col-md-4">
+      <p>
+        As money matters in real life and even as we are a social plattform, we need a backup
+        for the services <b>NEIGHBOR</b>s deliver, which means, as you are gonna buy a liter of
+        milk for another user, you'll have to spend e.g. 50 Cents. So as you spend the money,
+        we wanna be sure, you'll get it back. So each user can ask for things to buy, only if he
+        has a certain amount of <b>CALORIES</b> on his account. <b>CALORIES</b> can be bought
+        for the price of one banana (89 CALORIES).
+      </p>
+    </div>
+    <div class="col-md-2">
+      <?= Icon::show('user', ['class' => 'fa-4x pull-right'], Icon::FA); ?>
+    </div>
+    <div class="col-md-4">
+      <p>
+         <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">LOIGN</a></p>
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      
+    </div>
+    <div class="col-md-6">
+     
+    </div>
+  </div>
+</div>
 </div>
 
 <div class="container">
@@ -57,7 +126,7 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
 
     </div>
     <div class="col-md-6">
-        <p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">LOIGN</a></p>
+        
     </div>
   </div>
 </div>

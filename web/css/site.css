@@ -8,17 +8,28 @@ body {
 }
 
 body{
-    padding-top:80px;
+    padding-top:38px;
 }
 
-.navbar{
-  min-height: 80px;
+h1,h2,h3,h4 {
+  font-family: Playball, Arial, sans-serif;
+}
+
+#nbdrop-logo {
+  background: url("../img/logo_small_75.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+  height: 80px;
+  width: 260px;
+  position: absolute;
+  top: 90px;
+  left: 60px;
+  z-index: 2;
+  border-radius: 15px;
+  background-color: #fff;
 }
 
 .navbar-nav{
   font-family: Open Sans, sans-serif;
-  font-size: 20px;
-  margin-top: 40px;
+  font-size: 18px;
 }
 
 .navbar-default{
@@ -110,7 +121,12 @@ a.desc:after {
   border-radius: 15px;
   background-color: #ededed;
   position: absolute;
-  top: 130px;
+  top: 90px;
   right: 50px;
   z-index: 1;
+}
+
+#slide1{
+  background-color: #3bd1b7;
+  padding: 10px 10px 10px 10px;
 }
