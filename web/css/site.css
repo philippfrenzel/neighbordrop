@@ -112,6 +112,10 @@ a.desc:after {
   color: #999;
 }
 
+.panel-body{
+  padding: 0 0 0 0;
+}
+
 .error-summary {
   color: #a94442;
   background: #fdf7f7;
@@ -135,7 +139,7 @@ a.desc:after {
 }
 
 .bg_azure{
-  background-color: #3bd1b7;
+  background-color: #67C9EE;
 }
 
 .fg_white{
