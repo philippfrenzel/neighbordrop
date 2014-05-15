@@ -51,7 +51,7 @@ Icon::map($this);
 				['label' => 'About', 'url' => ['/site/about']],
 				['label' => 'Contact', 'url' => ['/site/contact']],
 				Yii::$app->user->isGuest ?
-					null:
+					['label'=> '','url'=>'#']:
 					['label' => 'Logout (' . Yii::$app->user->identity->username . ')' ,
 						'url' => ['/user/security/logout'],
 						'linkOptions' => ['data-method' => 'post']
