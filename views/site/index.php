@@ -69,25 +69,25 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
       <?= Icon::show('thumb-tack', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
     </div>
     <div class="col-md-4">
-      <p class="fg_dark">
+      <div class="fg_dark">
         <h3>The Idea</h3>
         NeighborDrop is a plattform that allows users to register several "drops". A drop
         can be your <b>HOME</b>, <b>WORKPLACE</b> or another place where you regulary live.
         After you registered at the platform you add your drops to your profile and then
         the social part begins - you need milk, but you can't get to the groceries in time...
         Post your <b>SUPPORTREQUEST</b> to the community and see if an NEIGHBOR can help you!
-      </p>
+      </div>
     </div>
     <div class="col-md-2">
       <?= Icon::show('h-square', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
     </div>
     <div class="col-md-4">
-      <p class="fg_dark">
+      <div class="fg_dark">
         <h3>Samples</h3>
         <b>SUPPORTREQUEST</b>s are categorized by the type of support you request, e.g. need something
         from the groceries. Or maybe you need someone to help you with the laundry or you are sick and
         can't walk to the pharmacy.
-      </p>
+      </div>
     </div>
   </div>
   <hr>
@@ -96,7 +96,7 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
       <?= Icon::show('money', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
     </div>
     <div class="col-md-4">
-      <p class="fg_dark">
+      <div class="fg_dark">
         <h3>Security</h3>
         As money matters in real life and even as we are a social plattform, we need a backup
         for the services <b>NEIGHBOR</b>s deliver, which means, as you are gonna buy a liter of
@@ -104,13 +104,13 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
         we wanna be sure, you'll get it back. So each user can ask for things to buy, only if he
         has a certain amount of <b>CALORIES</b> on his account. <b>CALORIES</b> can be bought
         for the price of one banana (89 CALORIES).
-      </p>
+      </div>
     </div>
     <div class="col-md-2">
       <?= Icon::show('user', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
     </div>
     <div class="col-md-4">
-      <p class="fg_dark">
+      <div class="fg_dark">
         <h3>Supporters</h3>
         As not only money matters to us, we keep a statistic of all the important and good
         thinks that are done by our community. While you decide to join, you can always see
@@ -118,7 +118,7 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
         neighbors to honor their social behaviour.
         <h3>Login</h3>
         <?= \dektrium\user\widgets\Connect::widget(); ?>
-      </p>
+      </div>
     </div>
   </div>
   <div class="row">
