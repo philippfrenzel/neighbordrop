@@ -47,7 +47,8 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
         echo \frenzelgmbh\cmaddress\widgets\IPLocation::widget([
           'title' => null,
           'options' => [
-            'height' => 400
+            'height' => 400,
+            'zoom' => 10
           ]          
         ]); 
       }
