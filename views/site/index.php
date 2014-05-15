@@ -66,7 +66,7 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
   <hr>
   <div class="row">
     <div class="col-md-1">
-      <?= Icon::show('lock', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
+      <?= Icon::show('lock', ['class' => 'fa-3x pull-right fg_white'], Icon::FA); ?>
     </div>
     <div class="col-md-3">
       <div class="fg_dark">
@@ -76,7 +76,7 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
       </div>
     </div>
     <div class="col-md-1">
-      <?= Icon::show('thumb-tack', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
+      <?= Icon::show('thumb-tack', ['class' => 'fa-3x pull-right fg_white'], Icon::FA); ?>
     </div>
     <div class="col-md-3">
       <div class="fg_dark">
@@ -89,7 +89,7 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
       </div>
     </div>
     <div class="col-md-1">
-      <?= Icon::show('h-square', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
+      <?= Icon::show('h-square', ['class' => 'fa-3x pull-right fg_white'], Icon::FA); ?>
     </div>
     <div class="col-md-3">
       <div class="fg_dark">
@@ -106,7 +106,7 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
       &nbsp;
     </div>
     <div class="col-md-1">
-      <?= Icon::show('money', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
+      <?= Icon::show('money', ['class' => 'fa-3x pull-right fg_white'], Icon::FA); ?>
     </div>
     <div class="col-md-3">
       <div class="fg_dark">
@@ -120,7 +120,7 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
       </div>
     </div>
     <div class="col-md-1">
-      <?= Icon::show('user', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
+      <?= Icon::show('user', ['class' => 'fa-3x pull-right fg_white'], Icon::FA); ?>
     </div>
     <div class="col-md-3">
       <div class="fg_dark">
