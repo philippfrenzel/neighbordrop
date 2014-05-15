@@ -65,10 +65,20 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
   </div>
   <hr>
   <div class="row">
-    <div class="col-md-2">
+    <div class="col-md-1">
+      <?= Icon::show('lock', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
+    </div>
+    <div class="col-md-3">
+      <div class="fg_dark">
+        <h2 class="fg_white">Login</h2>
+        <?= \dektrium\user\widgets\Connect::widget(); ?>
+        <?= \dektrium\user\widgets\Login::widget(); ?>
+      </div>
+    </div>
+    <div class="col-md-1">
       <?= Icon::show('thumb-tack', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-3">
       <div class="fg_dark">
         <h2 class="fg_white">The Idea</h2>
         NeighborDrop is a plattform that allows users to register several "drops". A drop
@@ -78,10 +88,10 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
         Post your <b>SUPPORTREQUEST</b> to the community and see if an NEIGHBOR can help you!
       </div>
     </div>
-    <div class="col-md-2">
+    <div class="col-md-1">
       <?= Icon::show('h-square', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-3">
       <div class="fg_dark">
         <h2 class="fg_white">Samples</h2>
         <b>SUPPORTREQUEST</b>s are categorized by the type of support you request, e.g. need something
@@ -115,12 +125,7 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
         As not only money matters to us, we keep a statistic of all the important and good
         thinks that are done by our community. While you decide to join, you can always see
         how much good you have done in a month. Each month we give an award to the top 3 
-        neighbors to honor their social behaviour.
-        
-        <h2 class="fg_white">Login</h2>
-        <?= \dektrium\user\widgets\Connect::widget(); ?>
-        <?= \dektrium\user\widgets\Login::widget(); ?>
-        
+        neighbors to honor their social behaviour.        
       </div>
     </div>
   </div>
