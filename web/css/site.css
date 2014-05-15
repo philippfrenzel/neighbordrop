@@ -44,8 +44,8 @@ p{
 }
 
 #footer {
-  height: 90px;
-  background-color: #564567;
+  height: 100px;
+  background-color: #E88925;
   border-top: 1px solid #ddd;
   padding-top: 20px;
   width:100%;
@@ -130,8 +130,12 @@ a.desc:after {
 }
 
 #slide1{
-  background-color: #3bd1b7;
+  background-color: #84C12D;
   padding: 10px 10px 10px 10px;
+}
+
+.bg_azure{
+  background-color: #3bd1b7;
 }
 
 .fg_white{

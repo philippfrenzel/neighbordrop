@@ -65,8 +65,13 @@ Icon::map($this);
 	
 <div id="footer">
 	<div class="container">
-		<p class="pull-left fg_white">&copy; NeigborDrop <?= date('Y') ?></p>
-		<p class="pull-right"><?= Yii::powered() ?></p>
+		<p class="pull-left fg_white">
+			&copy; NeigborDrop <?= date('Y') ?><br>
+			GERMANY - Stuttgart - Hohewartstr.32 <br>
+			friend@neighbordrop.com <br>
+			&nbsp;
+		</p>
+		<p class="pull-right fg_white">&copy; Frenzel GmbH <?= date('Y') ?></p>
 	</div>
 </div>	
 

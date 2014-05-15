@@ -63,6 +63,7 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
       <h1 class="fg_white">How it works...</h1>      
     </div>
   </div>
+  <hr>
   <div class="row">
     <div class="col-md-2">
       <?= Icon::show('thumb-tack', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
