@@ -50,11 +50,12 @@ Icon::map($this);
 				['label' => 'Home', 'url' => ['/site/index'],'data-menuanchor'=>'intro1'],
 				['label' => 'About', 'url' => ['/site/about']],
 				['label' => 'Contact', 'url' => ['/site/contact']],
-				!Yii::$app->user->isGuest ?
+				Yii::$app->user->isGuest ?
+					null:
 					['label' => 'Logout (' . Yii::$app->user->identity->username . ')' ,
 						'url' => ['/user/security/logout'],
-						'linkOptions' => ['data-method' => 'post']]:
-						NULL,
+						'linkOptions' => ['data-method' => 'post']
+					],
 			],
 		]);
 		NavBar::end();
