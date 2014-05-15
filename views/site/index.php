@@ -105,8 +105,12 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
       <?= Icon::show('user', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
     </div>
     <div class="col-md-4">
-      <p>
-         <p><a class="btn btn-lg btn-default" href="http://www.yiiframework.com">Join</a></p>
+      <p class="fg_dark">
+        As not only money matters to us, we keep a statistic of all the important and good
+        thinks that are done by our community. While you decide to join, you can always see
+        how much good you have done in a month. Each month we give an award to the top 3 
+        neighbors to honor their social behaviour.
+        <?= dektrium\user\widgets\Login(); ?>
       </p>
     </div>
   </div>
