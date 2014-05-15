@@ -40,7 +40,7 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
 ?>
 </div>
 
-<div class="container-fluid">
+<div class="container-fluid bg_azure">
   <div class="row">
     <?php 
       if(class_exists('\frenzelgmbh\cmaddress\widgets\IPLocation')){
