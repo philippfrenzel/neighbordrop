@@ -70,7 +70,7 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
     </div>
     <div class="col-md-4">
       <div class="fg_dark">
-        <h3>The Idea</h3>
+        <h2 class="fg_white">The Idea</h2>
         NeighborDrop is a plattform that allows users to register several "drops". A drop
         can be your <b>HOME</b>, <b>WORKPLACE</b> or another place where you regulary live.
         After you registered at the platform you add your drops to your profile and then
@@ -83,7 +83,7 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
     </div>
     <div class="col-md-4">
       <div class="fg_dark">
-        <h3>Samples</h3>
+        <h2 class="fg_white">Samples</h2>
         <b>SUPPORTREQUEST</b>s are categorized by the type of support you request, e.g. need something
         from the groceries. Or maybe you need someone to help you with the laundry or you are sick and
         can't walk to the pharmacy.
@@ -97,7 +97,7 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
     </div>
     <div class="col-md-4">
       <div class="fg_dark">
-        <h3>Security</h3>
+        <h2 class="fg_white">Security</h2>
         As money matters in real life and even as we are a social plattform, we need a backup
         for the services <b>NEIGHBOR</b>s deliver, which means, as you are gonna buy a liter of
         milk for another user, you'll have to spend e.g. 50 Cents. So as you spend the money,
@@ -111,13 +111,13 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
     </div>
     <div class="col-md-4">
       <div class="fg_dark">
-        <h3>Supporters</h3>
+        <h2 class="fg_white">Supporters</h2>
         As not only money matters to us, we keep a statistic of all the important and good
         thinks that are done by our community. While you decide to join, you can always see
         how much good you have done in a month. Each month we give an award to the top 3 
         neighbors to honor their social behaviour.
         
-        <h3>Login</h3>
+        <h2 class="fg_white">Login</h2>
         <?= \dektrium\user\widgets\Connect::widget(); ?>
         <?= \dektrium\user\widgets\Login::widget(); ?>
         
