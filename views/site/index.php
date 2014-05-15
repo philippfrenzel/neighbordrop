@@ -116,8 +116,11 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
         thinks that are done by our community. While you decide to join, you can always see
         how much good you have done in a month. Each month we give an award to the top 3 
         neighbors to honor their social behaviour.
+        
         <h3>Login</h3>
         <?= \dektrium\user\widgets\Connect::widget(); ?>
+        <?= \dektrium\user\widgets\Login::widget(); ?>
+        
       </div>
     </div>
   </div>
