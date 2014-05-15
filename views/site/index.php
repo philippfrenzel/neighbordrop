@@ -102,10 +102,13 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
   </div>
   <hr>
   <div class="row">
-    <div class="col-md-2">
+    <div class="col-md-4">
+      &nbsp;
+    </div>
+    <div class="col-md-1">
       <?= Icon::show('money', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-3">
       <div class="fg_dark">
         <h2 class="fg_white">Security</h2>
         As money matters in real life and even as we are a social plattform, we need a backup
@@ -116,10 +119,10 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
         for the price of one banana (89 CALORIES).
       </div>
     </div>
-    <div class="col-md-2">
+    <div class="col-md-1">
       <?= Icon::show('user', ['class' => 'fa-4x pull-right fg_white'], Icon::FA); ?>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-3">
       <div class="fg_dark">
         <h2 class="fg_white">Supporters</h2>
         As not only money matters to us, we keep a statistic of all the important and good
