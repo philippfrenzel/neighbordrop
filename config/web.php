@@ -40,7 +40,9 @@ $config = [
             'class' => 'yii\authclient\Collection',
             'clients' => [
                 'google' => [
-                    'class' => 'yii\authclient\clients\GoogleOpenId'
+                  'class' => 'yii\authclient\clients\GoogleOAuth',
+                  'clientId' => '955343129372-gihaplfk2g4ts7jn9p8lch5ea7f2sg2a.apps.googleusercontent.com',
+                  'clientSecret' => '3qlQh2ljkqTRniIF3o3UF75l'
                 ],
                 'facebook' => [
 	                'class' => 'yii\authclient\clients\Facebook',
