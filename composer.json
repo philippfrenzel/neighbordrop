@@ -17,6 +17,8 @@
     "yiisoft/yii2-swiftmailer": "*",
     "frenzelgmbh/appcommon": "*",
     "frenzelgmbh/cm-address":"dev-master",
+    "frenzelgmbh/cm-communication":"dev-master",
+    "frenzelgmbh/cm-categories":"dev-master",
     "jamesheinrich/phpthumb": "dev-master",
     "2amigos/yii2-file-input-widget" : "*",
     "philippfrenzel/yii2fullpagejs": "dev-master",

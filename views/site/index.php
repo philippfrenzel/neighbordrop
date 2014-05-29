@@ -71,7 +71,9 @@ $this->title = 'NeighborDrop - Help your neighbor with droping picking or dropin
     <div class="col-md-3">
       <div class="fg_dark">
         <h2 class="fg_white">Login</h2>
-        <?= \dektrium\user\widgets\Connect::widget(); ?>
+        <?= \dektrium\user\widgets\Connect::widget([
+              'baseAuthUrl' => ['/user/security/auth']
+        ]); ?>
         <?= \dektrium\user\widgets\Login::widget(); ?>
       </div>
     </div>
