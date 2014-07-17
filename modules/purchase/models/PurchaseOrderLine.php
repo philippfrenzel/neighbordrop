@@ -224,7 +224,7 @@ class PurchaseOrderLine extends \yii\db\ActiveRecord
   }
 
 
-  public function afterSave($insert)
+  public function afterSave($insert,$changedAttributes)
   {
     if($insert)
     {
@@ -232,6 +232,6 @@ class PurchaseOrderLine extends \yii\db\ActiveRecord
       $this->status = $workflow->status_to; //need to add the insert into workflow part here
       $this->save();
     }
-    parent::afterSave($insert);
+    parent::afterSave($insert,$changedAttributes);
   }
 }

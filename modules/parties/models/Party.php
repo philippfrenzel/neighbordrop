@@ -147,7 +147,7 @@ class Party extends \yii\db\ActiveRecord
    * @param  [type] $insert [description]
    * @return [type]         [description]
    */
-  public function afterSave($insert)
+  public function afterSave($insert,$changedAttributes)
   {
     $date = new DateTime('now');
     if($this->isNewRecord)
@@ -175,7 +175,7 @@ class Party extends \yii\db\ActiveRecord
       $this->time_create = $date->format("U");
     }
     $this->system_upate = $date->format("U");
-    return parent::afterSave($insert);    
+    return parent::afterSave($insert,$changedAttributes);    
   }
 
 }

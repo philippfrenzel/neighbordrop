@@ -114,8 +114,8 @@ class Task extends \yii\db\ActiveRecord
   * This is invoked after the record is saved. 
   * @todo needs to be programmed later in detail, as we gain more knowledge about user needs!
   */
-  public function afterSave($insert){
-    parent::afterSave($insert);
+  public function afterSave($insert,$changedAttributes){
+    parent::afterSave($insert,$changedAttributes);
     self::updateRecipients($this->_oldRecipients, $this->recipients,$this->id);
   }
 

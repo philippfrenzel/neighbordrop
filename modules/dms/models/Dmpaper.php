@@ -217,9 +217,9 @@ class Dmpaper extends \yii\db\ActiveRecord
 	/**
 	 * This is invoked after the record is saved.
 	 */
-	public function afterSave($insert)
+	public function afterSave($insert,$changedAttributes)
 	{
-		parent::afterSave($insert);
+		parent::afterSave($insert,$changedAttributes);
 		Tag::updateFrequency($this->_oldTags, $this->tags);
     self::updateRecipients($this->_oldRecipients, $this->recipients,$this->id);
 	}
