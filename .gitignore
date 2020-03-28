@@ -1,6 +1,26 @@
-#ignore the vendors folder
-vendors/*
+# folders and files
+/vendor
+/bin
+/runtime
+/luya
+composer.phar
+.DS_Store
 
-composer.lock
+# project config
+/configs/env-local-db.php
+/configs/env.php
 
-composer.lock
+# SASS & GULP
+/resources/.sass-cache
+/resources/local/
+
+#IDE: netbeans
+/nbproject
+
+#IDE: PHPStorm
+.idea/
+
+#IDE: eclipse
+.buildpath
+.project
+.settings
