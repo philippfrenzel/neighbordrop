@@ -16,11 +16,11 @@ $config = [
     /*
      * For best interoperability it is recommend to use only alphanumeric characters when specifying an application ID.
      */
-    'id' => 'myproject',
+    'id' => 'nbdrop',
     /*
      * The name of your site, will be display on the login screen
      */
-    'siteTitle' => 'My Project',
+    'siteTitle' => 'Neighbordrop',
     /*
      * Let the application know which module should be executed by default (if no url is set). This module must be included
      * in the modules section. In the most cases you are using the cms as default handler for your website. But the concept
@@ -60,6 +60,12 @@ $config = [
             'hiddenBlocks' => [],
             'blockVariations' => [],
         ],
+        // ...
+        'nbdropaddressfrontend' => [
+            'class' => 'app\modules\nbdropaddress\frontend\Module',
+            'useAppViewPath' => true, // When enabled the views will be looked up in the @app/views folder, otherwise the views shipped with the module will be used.
+        ],
+        'nbdropaddressadmin' => 'app\modules\nbdropaddress\admin\Module',
     ],
     'components' => [
         /*
